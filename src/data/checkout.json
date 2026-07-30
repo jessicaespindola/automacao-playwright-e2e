@@ -1,0 +1,47 @@
+{
+  "produtos": {
+    "backpack": {
+      "nome": "Sauce Labs Backpack",
+      "dataTestId": "sauce-labs-backpack",
+      "preco": "$29.99"
+    },
+    "bikeLight": {
+      "nome": "Sauce Labs Bike Light",
+      "dataTestId": "sauce-labs-bike-light",
+      "preco": "$9.99"
+    }
+  },
+  "clienteValido": {
+    "firstName": "Maria",
+    "lastName": "Silva",
+    "postalCode": "01310-100"
+  },
+  "clienteAlternativo": {
+    "firstName": "João",
+    "lastName": "Souza",
+    "postalCode": "20040-020"
+  },
+  "clienteIncompleto": {
+    "semNome": {
+      "firstName": "",
+      "lastName": "Silva",
+      "postalCode": "01310-100"
+    },
+    "semSobrenome": {
+      "firstName": "Maria",
+      "lastName": "",
+      "postalCode": "01310-100"
+    },
+    "semCep": {
+      "firstName": "Maria",
+      "lastName": "Silva",
+      "postalCode": ""
+    }
+  },
+  "mensagensErro": {
+    "firstNameObrigatorio": "Error: First Name is required",
+    "lastNameObrigatorio": "Error: Last Name is required",
+    "postalCodeObrigatorio": "Error: Postal Code is required"
+  },
+  "confirmacaoCompra": "Thank you for your order!"
+}

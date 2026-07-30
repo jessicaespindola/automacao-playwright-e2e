@@ -1,0 +1,41 @@
+{
+  "name": "saucedemo-playwright-cucumber",
+  "version": "1.0.0",
+  "description": "Automação E2E SauceDemo — Playwright + Cucumber (BDD) com Page Object Pattern",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "clean:reports": "node scripts/limpar-reports.mjs",
+    "report:sumario": "node scripts/gerar-sumario-relatorio.mjs",
+    "test": "cucumber-js",
+    "test:login": "cucumber-js --tags \"@login\" && npm run report:sumario",
+    "test:checkout": "cucumber-js --tags \"@checkout\" && npm run report:sumario",
+    "test:positivo": "cucumber-js --tags \"@positivo\" && npm run report:sumario",
+    "test:negativo": "cucumber-js --tags \"@negativo\" && npm run report:sumario",
+    "test:a11y": "cucumber-js --tags \"@acessibilidade\" && npm run report:sumario",
+    "test:headed": "cross-env HEADED=true cucumber-js && npm run report:sumario",
+    "test:report": "node scripts/abrir-relatorio.mjs",
+    "posttest": "npm run report:sumario"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "bdd",
+    "e2e",
+    "saucedemo",
+    "axe-core",
+    "acessibilidade"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/playwright": "^4.10.1",
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.50.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "cross-env": "^7.0.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

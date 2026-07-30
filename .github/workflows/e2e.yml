@@ -1,0 +1,54 @@
+name: E2E SauceDemo
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Run E2E suite
+        env:
+          CI: true
+          # Manter 1 até validar independência total dos cenários em paralelo
+          CUCUMBER_PARALLEL: '1'
+          BASE_URL: https://www.saucedemo.com
+          SENHA: secret_sauce
+        run: npm test
+
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: e2e-reports
+          path: |
+            reports/cucumber-report.html
+            reports/cucumber-report.json
+            reports/SUMARIO.md
+            reports/evidencias/**
+            reports/traces/**
+            reports/a11y/**
+          if-no-files-found: warn
