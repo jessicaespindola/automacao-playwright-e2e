@@ -1,0 +1,2261 @@
+[
+  {
+    "description": "  Como equipe de qualidade\n  Quero analisar as páginas com axe-core e validar navegação por teclado\n  Para garantir WCAG 2.0 Nível A/AA (critical/serious) e WCAG 2.1.1 (TAB)",
+    "elements": [
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;página-de-login-sem-violações-critical-ou-serious",
+        "keyword": "Cenário",
+        "line": 13,
+        "name": "Página de login sem violações critical ou serious",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 195011100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628406399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 15,
+            "name": "eu executo a análise de acessibilidade na página \"Login\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1472749100
+            },
+            "embeddings": [
+              {
+                "data": "PT09IEJvbGV0aW0gZGUgYWNlc3NpYmlsaWRhZGU6IExvZ2luID09PQpVUkw6IGh0dHBzOi8vd3d3LnNhdWNlZGVtby5jb20vCgpFc2NvcG86IFdDQUcgMi4wIE7DrXZlbCBBICsgQUEKICBUYWdzIGF4ZTogd2NhZzJhLCB3Y2FnMmFhCiAgKHdjYWcyYSA9IExldmVsIEEgfCB3Y2FnMmFhID0gTGV2ZWwgQUEpCgpQb2zDrXRpY2EgZGVzdGUgdGVzdGU6CiAgRkFMSEFSIHNlIGV4aXN0aXIgdmlvbGHDp8OjbyBjcml0aWNhbCBPVSBzZXJpb3VzCiAgUkVHSVNUUkFSIChuw6NvIGZhbGhhKSBtb2RlcmF0ZSBlIG1pbm9yCgpSZWdyYXMgZGVzYWJpbGl0YWRhcyBkZSBwcm9ww7NzaXRvOgogIChuZW5odW1hKQoKUmVzdWx0YWRvIGRhIHZhcnJlZHVyYSBheGUtY29yZToKICAtIFJlZ3JhcyBxdWUgcGFzc2FyYW0gKHBhc3Nlcyk6IDEwCiAgLSBWaW9sYcOnw7VlcyB0b3RhaXM6IDAKICAgICAgY3JpdGljYWw6IDAgIOKGkCBjcml0w6lyaW8gZGUgZmFsaGEKICAgICAgc2VyaW91czogIDAgIOKGkCBjcml0w6lyaW8gZGUgZmFsaGEKICAgICAgbW9kZXJhdGU6IDAgIChyZWdpc3RyYWRvLCBOw4NPIGZhbGhhIG8gdGVzdGUpCiAgICAgIG1pbm9yOiAgICAwICAocmVnaXN0cmFkbywgTsODTyBmYWxoYSBvIHRlc3RlKQogIC0gSW5jb21wbGV0ZSAocHJlY2lzYSByZXZpc8OjbyBtYW51YWwpOiAwCiAgLSBJbmFwcGxpY2FibGUgKG7Do28gc2UgYXBsaWNhIMOgIHDDoWdpbmEpOiA1MAoKVmlvbGHDp8O1ZXMgY3JpdGljYWwvc2VyaW91czoKICAobmVuaHVtYSDigJQgY3JpdMOpcmlvIGRlIGZhbGhhIGF0ZW5kaWRvKQoKVmlvbGHDp8O1ZXMgaW5mb3JtYXRpdmFzIChtb2RlcmF0ZS9taW5vcikg4oCUIG7Do28gZmFsaGFtIG8gdGVzdGU6CiAgKG5lbmh1bWEpCgpWZXJlZGl0bzogQVBST1ZBRE8g4oCUIHplcm8gdmlvbGHDp8O1ZXMgY3JpdGljYWwvc2VyaW91cyBubyBlc2NvcG8gV0NBRyAyLjAgTsOtdmVsIEEgZSBBQQpSZWxhdMOzcmlvIEpTT046IEM6XFBST0pFVE9TXERlc2FmaW8gVMOpY25pY28gT3V0c2VyYVxFMkVccGxheXdyaWdodC1lMmVccmVwb3J0c1xhMTF5XExvZ2luXzIwMjYtMDctMzFUMDItNTEtMzktOTAwWi5qc29uCgpOb3RhOiBheGUgY29icmUgY2hlY2FnZW5zIGF1dG9tYXRpesOhdmVpcyBubyBET00gKHBhcnRlIGRhcyByZWdyYXMgV0NBRykuCk7Do28gc3Vic3RpdHVpIHRlc3RlIGRlIHRlY2xhZG8gKFRBQiksIGxlaXRvciBkZSB0ZWxhIG5lbSByZXZpc8OjbyBkZSBjb250ZcO6ZG8u",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ewogICJwYWdpbmEiOiAiTG9naW4iLAogICJ1cmwiOiAiaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS8iLAogICJlc2NvcG8iOiB7CiAgICAicGFkcmFvIjogIldDQUcgMi4wIiwKICAgICJuaXZlaXMiOiBbCiAgICAgICJBIiwKICAgICAgIkFBIgogICAgXSwKICAgICJ0YWdzQXhlIjogWwogICAgICAid2NhZzJhIiwKICAgICAgIndjYWcyYWEiCiAgICBdLAogICAgInBvbGl0aWNhRmFsaGEiOiBbCiAgICAgICJjcml0aWNhbCIsCiAgICAgICJzZXJpb3VzIgogICAgXQogIH0sCiAgImFwcm92YWRvIjogdHJ1ZSwKICAiY29udGFnZW5zIjogewogICAgInBhc3NlcyI6IDEwLAogICAgInZpb2xhdGlvbnMiOiAwLAogICAgImluY29tcGxldGUiOiAwLAogICAgImluYXBwbGljYWJsZSI6IDUwLAogICAgInBvckltcGFjdG8iOiB7fSwKICAgICJjcml0aWNhbCI6IDAsCiAgICAic2VyaW91cyI6IDAsCiAgICAibW9kZXJhdGUiOiAwLAogICAgIm1pbm9yIjogMAogIH0sCiAgInJlZ3Jhc0Rlc2FiaWxpdGFkYXMiOiBbXSwKICAiY2FtaW5ob1JlbGF0b3JpbyI6ICJDOlxcUFJPSkVUT1NcXERlc2FmaW8gVMOpY25pY28gT3V0c2VyYVxcRTJFXFxwbGF5d3JpZ2h0LWUyZVxccmVwb3J0c1xcYTExeVxcTG9naW5fMjAyNi0wNy0zMVQwMi01MS0zOS05MDBaLmpzb24iLAogICJ2aW9sYWNvZXNDcml0aWNhbFNlcmlvdXMiOiBbXSwKICAidmlvbGFjb2VzSW5mb3JtYXRpdmFzIjogW10KfQ==",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 16,
+            "name": "a página deve estar livre de violações critical e serious segundo WCAG 2 nivel A e AA",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8050900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 21402700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@smoke",
+            "line": 12
+          },
+          {
+            "name": "@axe",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;página-de-produtos-sem-violações-critical-ou-serious",
+        "keyword": "Cenário",
+        "line": 19,
+        "name": "Página de produtos sem violações critical ou serious",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 167467300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 20,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1155750799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "eu executo a análise de acessibilidade na página \"Products\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1632871600
+            },
+            "embeddings": [
+              {
+                "data": "PT09IEJvbGV0aW0gZGUgYWNlc3NpYmlsaWRhZGU6IFByb2R1Y3RzID09PQpVUkw6IGh0dHBzOi8vd3d3LnNhdWNlZGVtby5jb20vaW52ZW50b3J5Lmh0bWwKCkVzY29wbzogV0NBRyAyLjAgTsOtdmVsIEEgKyBBQQogIFRhZ3MgYXhlOiB3Y2FnMmEsIHdjYWcyYWEKICAod2NhZzJhID0gTGV2ZWwgQSB8IHdjYWcyYWEgPSBMZXZlbCBBQSkKClBvbMOtdGljYSBkZXN0ZSB0ZXN0ZToKICBGQUxIQVIgc2UgZXhpc3RpciB2aW9sYcOnw6NvIGNyaXRpY2FsIE9VIHNlcmlvdXMKICBSRUdJU1RSQVIgKG7Do28gZmFsaGEpIG1vZGVyYXRlIGUgbWlub3IKClJlZ3JhcyBkZXNhYmlsaXRhZGFzIGRlIHByb3DDs3NpdG86CiAgLSBzZWxlY3QtbmFtZTogU2F1Y2VEZW1vIOKAlCBzZWxlY3QgZGUgb3JkZW5hw6fDo28gbmEgcMOhZ2luYSBQcm9kdWN0cyBzZW0gbm9tZSBhY2Vzc8OtdmVsCgpSZXN1bHRhZG8gZGEgdmFycmVkdXJhIGF4ZS1jb3JlOgogIC0gUmVncmFzIHF1ZSBwYXNzYXJhbSAocGFzc2VzKTogMTQKICAtIFZpb2xhw6fDtWVzIHRvdGFpczogMAogICAgICBjcml0aWNhbDogMCAg4oaQIGNyaXTDqXJpbyBkZSBmYWxoYQogICAgICBzZXJpb3VzOiAgMCAg4oaQIGNyaXTDqXJpbyBkZSBmYWxoYQogICAgICBtb2RlcmF0ZTogMCAgKHJlZ2lzdHJhZG8sIE7Dg08gZmFsaGEgbyB0ZXN0ZSkKICAgICAgbWlub3I6ICAgIDAgIChyZWdpc3RyYWRvLCBOw4NPIGZhbGhhIG8gdGVzdGUpCiAgLSBJbmNvbXBsZXRlIChwcmVjaXNhIHJldmlzw6NvIG1hbnVhbCk6IDIKICAtIEluYXBwbGljYWJsZSAobsOjbyBzZSBhcGxpY2Egw6AgcMOhZ2luYSk6IDQ0CgpWaW9sYcOnw7VlcyBjcml0aWNhbC9zZXJpb3VzOgogIChuZW5odW1hIOKAlCBjcml0w6lyaW8gZGUgZmFsaGEgYXRlbmRpZG8pCgpWaW9sYcOnw7VlcyBpbmZvcm1hdGl2YXMgKG1vZGVyYXRlL21pbm9yKSDigJQgbsOjbyBmYWxoYW0gbyB0ZXN0ZToKICAobmVuaHVtYSkKClZlcmVkaXRvOiBBUFJPVkFETyDigJQgemVybyB2aW9sYcOnw7VlcyBjcml0aWNhbC9zZXJpb3VzIG5vIGVzY29wbyBXQ0FHIDIuMCBOw612ZWwgQSBlIEFBClJlbGF0w7NyaW8gSlNPTjogQzpcUFJPSkVUT1NcRGVzYWZpbyBUw6ljbmljbyBPdXRzZXJhXEUyRVxwbGF5d3JpZ2h0LWUyZVxyZXBvcnRzXGExMXlcUHJvZHVjdHNfMjAyNi0wNy0zMVQwMi01MS00Mi04OTNaLmpzb24KCk5vdGE6IGF4ZSBjb2JyZSBjaGVjYWdlbnMgYXV0b21hdGl6w6F2ZWlzIG5vIERPTSAocGFydGUgZGFzIHJlZ3JhcyBXQ0FHKS4KTsOjbyBzdWJzdGl0dWkgdGVzdGUgZGUgdGVjbGFkbyAoVEFCKSwgbGVpdG9yIGRlIHRlbGEgbmVtIHJldmlzw6NvIGRlIGNvbnRlw7pkby4=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ewogICJwYWdpbmEiOiAiUHJvZHVjdHMiLAogICJ1cmwiOiAiaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9pbnZlbnRvcnkuaHRtbCIsCiAgImVzY29wbyI6IHsKICAgICJwYWRyYW8iOiAiV0NBRyAyLjAiLAogICAgIm5pdmVpcyI6IFsKICAgICAgIkEiLAogICAgICAiQUEiCiAgICBdLAogICAgInRhZ3NBeGUiOiBbCiAgICAgICJ3Y2FnMmEiLAogICAgICAid2NhZzJhYSIKICAgIF0sCiAgICAicG9saXRpY2FGYWxoYSI6IFsKICAgICAgImNyaXRpY2FsIiwKICAgICAgInNlcmlvdXMiCiAgICBdCiAgfSwKICAiYXByb3ZhZG8iOiB0cnVlLAogICJjb250YWdlbnMiOiB7CiAgICAicGFzc2VzIjogMTQsCiAgICAidmlvbGF0aW9ucyI6IDAsCiAgICAiaW5jb21wbGV0ZSI6IDIsCiAgICAiaW5hcHBsaWNhYmxlIjogNDQsCiAgICAicG9ySW1wYWN0byI6IHt9LAogICAgImNyaXRpY2FsIjogMCwKICAgICJzZXJpb3VzIjogMCwKICAgICJtb2RlcmF0ZSI6IDAsCiAgICAibWlub3IiOiAwCiAgfSwKICAicmVncmFzRGVzYWJpbGl0YWRhcyI6IFsKICAgICJzZWxlY3QtbmFtZSIKICBdLAogICJjYW1pbmhvUmVsYXRvcmlvIjogIkM6XFxQUk9KRVRPU1xcRGVzYWZpbyBUw6ljbmljbyBPdXRzZXJhXFxFMkVcXHBsYXl3cmlnaHQtZTJlXFxyZXBvcnRzXFxhMTF5XFxQcm9kdWN0c18yMDI2LTA3LTMxVDAyLTUxLTQyLTg5M1ouanNvbiIsCiAgInZpb2xhY29lc0NyaXRpY2FsU2VyaW91cyI6IFtdLAogICJ2aW9sYWNvZXNJbmZvcm1hdGl2YXMiOiBbXQp9",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 22,
+            "name": "a página deve estar livre de violações critical e serious segundo WCAG 2 nivel A e AA",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 701800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19616899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@axe",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;página-do-carrinho-sem-violações-critical-ou-serious",
+        "keyword": "Cenário",
+        "line": 25,
+        "name": "Página do carrinho sem violações critical ou serious",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 158162700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 26,
+            "name": "que estou na página do carrinho com o produto \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1187214800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 27,
+            "name": "eu executo a análise de acessibilidade na página \"Cart\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1250022099
+            },
+            "embeddings": [
+              {
+                "data": "PT09IEJvbGV0aW0gZGUgYWNlc3NpYmlsaWRhZGU6IENhcnQgPT09ClVSTDogaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9jYXJ0Lmh0bWwKCkVzY29wbzogV0NBRyAyLjAgTsOtdmVsIEEgKyBBQQogIFRhZ3MgYXhlOiB3Y2FnMmEsIHdjYWcyYWEKICAod2NhZzJhID0gTGV2ZWwgQSB8IHdjYWcyYWEgPSBMZXZlbCBBQSkKClBvbMOtdGljYSBkZXN0ZSB0ZXN0ZToKICBGQUxIQVIgc2UgZXhpc3RpciB2aW9sYcOnw6NvIGNyaXRpY2FsIE9VIHNlcmlvdXMKICBSRUdJU1RSQVIgKG7Do28gZmFsaGEpIG1vZGVyYXRlIGUgbWlub3IKClJlZ3JhcyBkZXNhYmlsaXRhZGFzIGRlIHByb3DDs3NpdG86CiAgKG5lbmh1bWEpCgpSZXN1bHRhZG8gZGEgdmFycmVkdXJhIGF4ZS1jb3JlOgogIC0gUmVncmFzIHF1ZSBwYXNzYXJhbSAocGFzc2VzKTogMTMKICAtIFZpb2xhw6fDtWVzIHRvdGFpczogMAogICAgICBjcml0aWNhbDogMCAg4oaQIGNyaXTDqXJpbyBkZSBmYWxoYQogICAgICBzZXJpb3VzOiAgMCAg4oaQIGNyaXTDqXJpbyBkZSBmYWxoYQogICAgICBtb2RlcmF0ZTogMCAgKHJlZ2lzdHJhZG8sIE7Dg08gZmFsaGEgbyB0ZXN0ZSkKICAgICAgbWlub3I6ICAgIDAgIChyZWdpc3RyYWRvLCBOw4NPIGZhbGhhIG8gdGVzdGUpCiAgLSBJbmNvbXBsZXRlIChwcmVjaXNhIHJldmlzw6NvIG1hbnVhbCk6IDEKICAtIEluYXBwbGljYWJsZSAobsOjbyBzZSBhcGxpY2Egw6AgcMOhZ2luYSk6IDQ2CgpWaW9sYcOnw7VlcyBjcml0aWNhbC9zZXJpb3VzOgogIChuZW5odW1hIOKAlCBjcml0w6lyaW8gZGUgZmFsaGEgYXRlbmRpZG8pCgpWaW9sYcOnw7VlcyBpbmZvcm1hdGl2YXMgKG1vZGVyYXRlL21pbm9yKSDigJQgbsOjbyBmYWxoYW0gbyB0ZXN0ZToKICAobmVuaHVtYSkKClZlcmVkaXRvOiBBUFJPVkFETyDigJQgemVybyB2aW9sYcOnw7VlcyBjcml0aWNhbC9zZXJpb3VzIG5vIGVzY29wbyBXQ0FHIDIuMCBOw612ZWwgQSBlIEFBClJlbGF0w7NyaW8gSlNPTjogQzpcUFJPSkVUT1NcRGVzYWZpbyBUw6ljbmljbyBPdXRzZXJhXEUyRVxwbGF5d3JpZ2h0LWUyZVxyZXBvcnRzXGExMXlcQ2FydF8yMDI2LTA3LTMxVDAyLTUxLTQ1LTUxOVouanNvbgoKTm90YTogYXhlIGNvYnJlIGNoZWNhZ2VucyBhdXRvbWF0aXrDoXZlaXMgbm8gRE9NIChwYXJ0ZSBkYXMgcmVncmFzIFdDQUcpLgpOw6NvIHN1YnN0aXR1aSB0ZXN0ZSBkZSB0ZWNsYWRvIChUQUIpLCBsZWl0b3IgZGUgdGVsYSBuZW0gcmV2aXPDo28gZGUgY29udGXDumRvLg==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ewogICJwYWdpbmEiOiAiQ2FydCIsCiAgInVybCI6ICJodHRwczovL3d3dy5zYXVjZWRlbW8uY29tL2NhcnQuaHRtbCIsCiAgImVzY29wbyI6IHsKICAgICJwYWRyYW8iOiAiV0NBRyAyLjAiLAogICAgIm5pdmVpcyI6IFsKICAgICAgIkEiLAogICAgICAiQUEiCiAgICBdLAogICAgInRhZ3NBeGUiOiBbCiAgICAgICJ3Y2FnMmEiLAogICAgICAid2NhZzJhYSIKICAgIF0sCiAgICAicG9saXRpY2FGYWxoYSI6IFsKICAgICAgImNyaXRpY2FsIiwKICAgICAgInNlcmlvdXMiCiAgICBdCiAgfSwKICAiYXByb3ZhZG8iOiB0cnVlLAogICJjb250YWdlbnMiOiB7CiAgICAicGFzc2VzIjogMTMsCiAgICAidmlvbGF0aW9ucyI6IDAsCiAgICAiaW5jb21wbGV0ZSI6IDEsCiAgICAiaW5hcHBsaWNhYmxlIjogNDYsCiAgICAicG9ySW1wYWN0byI6IHt9LAogICAgImNyaXRpY2FsIjogMCwKICAgICJzZXJpb3VzIjogMCwKICAgICJtb2RlcmF0ZSI6IDAsCiAgICAibWlub3IiOiAwCiAgfSwKICAicmVncmFzRGVzYWJpbGl0YWRhcyI6IFtdLAogICJjYW1pbmhvUmVsYXRvcmlvIjogIkM6XFxQUk9KRVRPU1xcRGVzYWZpbyBUw6ljbmljbyBPdXRzZXJhXFxFMkVcXHBsYXl3cmlnaHQtZTJlXFxyZXBvcnRzXFxhMTF5XFxDYXJ0XzIwMjYtMDctMzFUMDItNTEtNDUtNTE5Wi5qc29uIiwKICAidmlvbGFjb2VzQ3JpdGljYWxTZXJpb3VzIjogW10sCiAgInZpb2xhY29lc0luZm9ybWF0aXZhcyI6IFtdCn0=",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 28,
+            "name": "a página deve estar livre de violações critical e serious segundo WCAG 2 nivel A e AA",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 25361600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@axe",
+            "line": 24
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;página-de-informações-do-checkout-sem-violações-critical-ou-serious",
+        "keyword": "Cenário",
+        "line": 31,
+        "name": "Página de informações do checkout sem violações critical ou serious",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 169966000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 32,
+            "name": "que estou na etapa de informações do checkout com o produto \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1306865600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 33,
+            "name": "eu executo a análise de acessibilidade na página \"Checkout Info\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1180551600
+            },
+            "embeddings": [
+              {
+                "data": "PT09IEJvbGV0aW0gZGUgYWNlc3NpYmlsaWRhZGU6IENoZWNrb3V0IEluZm8gPT09ClVSTDogaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9jaGVja291dC1zdGVwLW9uZS5odG1sCgpFc2NvcG86IFdDQUcgMi4wIE7DrXZlbCBBICsgQUEKICBUYWdzIGF4ZTogd2NhZzJhLCB3Y2FnMmFhCiAgKHdjYWcyYSA9IExldmVsIEEgfCB3Y2FnMmFhID0gTGV2ZWwgQUEpCgpQb2zDrXRpY2EgZGVzdGUgdGVzdGU6CiAgRkFMSEFSIHNlIGV4aXN0aXIgdmlvbGHDp8OjbyBjcml0aWNhbCBPVSBzZXJpb3VzCiAgUkVHSVNUUkFSIChuw6NvIGZhbGhhKSBtb2RlcmF0ZSBlIG1pbm9yCgpSZWdyYXMgZGVzYWJpbGl0YWRhcyBkZSBwcm9ww7NzaXRvOgogIChuZW5odW1hKQoKUmVzdWx0YWRvIGRhIHZhcnJlZHVyYSBheGUtY29yZToKICAtIFJlZ3JhcyBxdWUgcGFzc2FyYW0gKHBhc3Nlcyk6IDE2CiAgLSBWaW9sYcOnw7VlcyB0b3RhaXM6IDAKICAgICAgY3JpdGljYWw6IDAgIOKGkCBjcml0w6lyaW8gZGUgZmFsaGEKICAgICAgc2VyaW91czogIDAgIOKGkCBjcml0w6lyaW8gZGUgZmFsaGEKICAgICAgbW9kZXJhdGU6IDAgIChyZWdpc3RyYWRvLCBOw4NPIGZhbGhhIG8gdGVzdGUpCiAgICAgIG1pbm9yOiAgICAwICAocmVnaXN0cmFkbywgTsODTyBmYWxoYSBvIHRlc3RlKQogIC0gSW5jb21wbGV0ZSAocHJlY2lzYSByZXZpc8OjbyBtYW51YWwpOiAxCiAgLSBJbmFwcGxpY2FibGUgKG7Do28gc2UgYXBsaWNhIMOgIHDDoWdpbmEpOiA0MwoKVmlvbGHDp8O1ZXMgY3JpdGljYWwvc2VyaW91czoKICAobmVuaHVtYSDigJQgY3JpdMOpcmlvIGRlIGZhbGhhIGF0ZW5kaWRvKQoKVmlvbGHDp8O1ZXMgaW5mb3JtYXRpdmFzIChtb2RlcmF0ZS9taW5vcikg4oCUIG7Do28gZmFsaGFtIG8gdGVzdGU6CiAgKG5lbmh1bWEpCgpWZXJlZGl0bzogQVBST1ZBRE8g4oCUIHplcm8gdmlvbGHDp8O1ZXMgY3JpdGljYWwvc2VyaW91cyBubyBlc2NvcG8gV0NBRyAyLjAgTsOtdmVsIEEgZSBBQQpSZWxhdMOzcmlvIEpTT046IEM6XFBST0pFVE9TXERlc2FmaW8gVMOpY25pY28gT3V0c2VyYVxFMkVccGxheXdyaWdodC1lMmVccmVwb3J0c1xhMTF5XENoZWNrb3V0X0luZm9fMjAyNi0wNy0zMVQwMi01MS00OC0yMDVaLmpzb24KCk5vdGE6IGF4ZSBjb2JyZSBjaGVjYWdlbnMgYXV0b21hdGl6w6F2ZWlzIG5vIERPTSAocGFydGUgZGFzIHJlZ3JhcyBXQ0FHKS4KTsOjbyBzdWJzdGl0dWkgdGVzdGUgZGUgdGVjbGFkbyAoVEFCKSwgbGVpdG9yIGRlIHRlbGEgbmVtIHJldmlzw6NvIGRlIGNvbnRlw7pkby4=",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ewogICJwYWdpbmEiOiAiQ2hlY2tvdXQgSW5mbyIsCiAgInVybCI6ICJodHRwczovL3d3dy5zYXVjZWRlbW8uY29tL2NoZWNrb3V0LXN0ZXAtb25lLmh0bWwiLAogICJlc2NvcG8iOiB7CiAgICAicGFkcmFvIjogIldDQUcgMi4wIiwKICAgICJuaXZlaXMiOiBbCiAgICAgICJBIiwKICAgICAgIkFBIgogICAgXSwKICAgICJ0YWdzQXhlIjogWwogICAgICAid2NhZzJhIiwKICAgICAgIndjYWcyYWEiCiAgICBdLAogICAgInBvbGl0aWNhRmFsaGEiOiBbCiAgICAgICJjcml0aWNhbCIsCiAgICAgICJzZXJpb3VzIgogICAgXQogIH0sCiAgImFwcm92YWRvIjogdHJ1ZSwKICAiY29udGFnZW5zIjogewogICAgInBhc3NlcyI6IDE2LAogICAgInZpb2xhdGlvbnMiOiAwLAogICAgImluY29tcGxldGUiOiAxLAogICAgImluYXBwbGljYWJsZSI6IDQzLAogICAgInBvckltcGFjdG8iOiB7fSwKICAgICJjcml0aWNhbCI6IDAsCiAgICAic2VyaW91cyI6IDAsCiAgICAibW9kZXJhdGUiOiAwLAogICAgIm1pbm9yIjogMAogIH0sCiAgInJlZ3Jhc0Rlc2FiaWxpdGFkYXMiOiBbXSwKICAiY2FtaW5ob1JlbGF0b3JpbyI6ICJDOlxcUFJPSkVUT1NcXERlc2FmaW8gVMOpY25pY28gT3V0c2VyYVxcRTJFXFxwbGF5d3JpZ2h0LWUyZVxccmVwb3J0c1xcYTExeVxcQ2hlY2tvdXRfSW5mb18yMDI2LTA3LTMxVDAyLTUxLTQ4LTIwNVouanNvbiIsCiAgInZpb2xhY29lc0NyaXRpY2FsU2VyaW91cyI6IFtdLAogICJ2aW9sYWNvZXNJbmZvcm1hdGl2YXMiOiBbXQp9",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 34,
+            "name": "a página deve estar livre de violações critical e serious segundo WCAG 2 nivel A e AA",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 595199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12896999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@axe",
+            "line": 30
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;página-de-resumo-do-checkout-sem-violações-critical-ou-serious",
+        "keyword": "Cenário",
+        "line": 37,
+        "name": "Página de resumo do checkout sem violações critical ou serious",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 154370699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 38,
+            "name": "que estou na etapa de informações do checkout com o produto \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1272436300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 39,
+            "name": "eu preencho os dados de entrega do cliente \"valido\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125501200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 40,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80487799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 41,
+            "name": "eu executo a análise de acessibilidade na página \"Checkout Overview\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1285500200
+            },
+            "embeddings": [
+              {
+                "data": "PT09IEJvbGV0aW0gZGUgYWNlc3NpYmlsaWRhZGU6IENoZWNrb3V0IE92ZXJ2aWV3ID09PQpVUkw6IGh0dHBzOi8vd3d3LnNhdWNlZGVtby5jb20vY2hlY2tvdXQtc3RlcC10d28uaHRtbAoKRXNjb3BvOiBXQ0FHIDIuMCBOw612ZWwgQSArIEFBCiAgVGFncyBheGU6IHdjYWcyYSwgd2NhZzJhYQogICh3Y2FnMmEgPSBMZXZlbCBBIHwgd2NhZzJhYSA9IExldmVsIEFBKQoKUG9sw610aWNhIGRlc3RlIHRlc3RlOgogIEZBTEhBUiBzZSBleGlzdGlyIHZpb2xhw6fDo28gY3JpdGljYWwgT1Ugc2VyaW91cwogIFJFR0lTVFJBUiAobsOjbyBmYWxoYSkgbW9kZXJhdGUgZSBtaW5vcgoKUmVncmFzIGRlc2FiaWxpdGFkYXMgZGUgcHJvcMOzc2l0bzoKICAobmVuaHVtYSkKClJlc3VsdGFkbyBkYSB2YXJyZWR1cmEgYXhlLWNvcmU6CiAgLSBSZWdyYXMgcXVlIHBhc3NhcmFtIChwYXNzZXMpOiAxMwogIC0gVmlvbGHDp8O1ZXMgdG90YWlzOiAwCiAgICAgIGNyaXRpY2FsOiAwICDihpAgY3JpdMOpcmlvIGRlIGZhbGhhCiAgICAgIHNlcmlvdXM6ICAwICDihpAgY3JpdMOpcmlvIGRlIGZhbGhhCiAgICAgIG1vZGVyYXRlOiAwICAocmVnaXN0cmFkbywgTsODTyBmYWxoYSBvIHRlc3RlKQogICAgICBtaW5vcjogICAgMCAgKHJlZ2lzdHJhZG8sIE7Dg08gZmFsaGEgbyB0ZXN0ZSkKICAtIEluY29tcGxldGUgKHByZWNpc2EgcmV2aXPDo28gbWFudWFsKTogMQogIC0gSW5hcHBsaWNhYmxlIChuw6NvIHNlIGFwbGljYSDDoCBww6FnaW5hKTogNDYKClZpb2xhw6fDtWVzIGNyaXRpY2FsL3NlcmlvdXM6CiAgKG5lbmh1bWEg4oCUIGNyaXTDqXJpbyBkZSBmYWxoYSBhdGVuZGlkbykKClZpb2xhw6fDtWVzIGluZm9ybWF0aXZhcyAobW9kZXJhdGUvbWlub3IpIOKAlCBuw6NvIGZhbGhhbSBvIHRlc3RlOgogIChuZW5odW1hKQoKVmVyZWRpdG86IEFQUk9WQURPIOKAlCB6ZXJvIHZpb2xhw6fDtWVzIGNyaXRpY2FsL3NlcmlvdXMgbm8gZXNjb3BvIFdDQUcgMi4wIE7DrXZlbCBBIGUgQUEKUmVsYXTDs3JpbyBKU09OOiBDOlxQUk9KRVRPU1xEZXNhZmlvIFTDqWNuaWNvIE91dHNlcmFcRTJFXHBsYXl3cmlnaHQtZTJlXHJlcG9ydHNcYTExeVxDaGVja291dF9PdmVydmlld18yMDI2LTA3LTMxVDAyLTUxLTUxLTE0NVouanNvbgoKTm90YTogYXhlIGNvYnJlIGNoZWNhZ2VucyBhdXRvbWF0aXrDoXZlaXMgbm8gRE9NIChwYXJ0ZSBkYXMgcmVncmFzIFdDQUcpLgpOw6NvIHN1YnN0aXR1aSB0ZXN0ZSBkZSB0ZWNsYWRvIChUQUIpLCBsZWl0b3IgZGUgdGVsYSBuZW0gcmV2aXPDo28gZGUgY29udGXDumRvLg==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ewogICJwYWdpbmEiOiAiQ2hlY2tvdXQgT3ZlcnZpZXciLAogICJ1cmwiOiAiaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9jaGVja291dC1zdGVwLXR3by5odG1sIiwKICAiZXNjb3BvIjogewogICAgInBhZHJhbyI6ICJXQ0FHIDIuMCIsCiAgICAibml2ZWlzIjogWwogICAgICAiQSIsCiAgICAgICJBQSIKICAgIF0sCiAgICAidGFnc0F4ZSI6IFsKICAgICAgIndjYWcyYSIsCiAgICAgICJ3Y2FnMmFhIgogICAgXSwKICAgICJwb2xpdGljYUZhbGhhIjogWwogICAgICAiY3JpdGljYWwiLAogICAgICAic2VyaW91cyIKICAgIF0KICB9LAogICJhcHJvdmFkbyI6IHRydWUsCiAgImNvbnRhZ2VucyI6IHsKICAgICJwYXNzZXMiOiAxMywKICAgICJ2aW9sYXRpb25zIjogMCwKICAgICJpbmNvbXBsZXRlIjogMSwKICAgICJpbmFwcGxpY2FibGUiOiA0NiwKICAgICJwb3JJbXBhY3RvIjoge30sCiAgICAiY3JpdGljYWwiOiAwLAogICAgInNlcmlvdXMiOiAwLAogICAgIm1vZGVyYXRlIjogMCwKICAgICJtaW5vciI6IDAKICB9LAogICJyZWdyYXNEZXNhYmlsaXRhZGFzIjogW10sCiAgImNhbWluaG9SZWxhdG9yaW8iOiAiQzpcXFBST0pFVE9TXFxEZXNhZmlvIFTDqWNuaWNvIE91dHNlcmFcXEUyRVxccGxheXdyaWdodC1lMmVcXHJlcG9ydHNcXGExMXlcXENoZWNrb3V0X092ZXJ2aWV3XzIwMjYtMDctMzFUMDItNTEtNTEtMTQ1Wi5qc29uIiwKICAidmlvbGFjb2VzQ3JpdGljYWxTZXJpb3VzIjogW10sCiAgInZpb2xhY29lc0luZm9ybWF0aXZhcyI6IFtdCn0=",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 42,
+            "name": "a página deve estar livre de violações critical e serious segundo WCAG 2 nivel A e AA",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18895200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@axe",
+            "line": 36
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;página-de-compra-concluída-sem-violações-critical-ou-serious",
+        "keyword": "Cenário",
+        "line": 45,
+        "name": "Página de compra concluída sem violações critical ou serious",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 157177100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 46,
+            "name": "que estou na etapa de informações do checkout com o produto \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1276811200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 47,
+            "name": "eu preencho os dados de entrega do cliente \"valido\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114014199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 48,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81830099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 49,
+            "name": "eu finalizo a compra",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 63181199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 50,
+            "name": "eu devo ver a confirmação da compra",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24022499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 51,
+            "name": "eu executo a análise de acessibilidade na página \"Checkout Complete\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1192953099
+            },
+            "embeddings": [
+              {
+                "data": "PT09IEJvbGV0aW0gZGUgYWNlc3NpYmlsaWRhZGU6IENoZWNrb3V0IENvbXBsZXRlID09PQpVUkw6IGh0dHBzOi8vd3d3LnNhdWNlZGVtby5jb20vY2hlY2tvdXQtY29tcGxldGUuaHRtbAoKRXNjb3BvOiBXQ0FHIDIuMCBOw612ZWwgQSArIEFBCiAgVGFncyBheGU6IHdjYWcyYSwgd2NhZzJhYQogICh3Y2FnMmEgPSBMZXZlbCBBIHwgd2NhZzJhYSA9IExldmVsIEFBKQoKUG9sw610aWNhIGRlc3RlIHRlc3RlOgogIEZBTEhBUiBzZSBleGlzdGlyIHZpb2xhw6fDo28gY3JpdGljYWwgT1Ugc2VyaW91cwogIFJFR0lTVFJBUiAobsOjbyBmYWxoYSkgbW9kZXJhdGUgZSBtaW5vcgoKUmVncmFzIGRlc2FiaWxpdGFkYXMgZGUgcHJvcMOzc2l0bzoKICAobmVuaHVtYSkKClJlc3VsdGFkbyBkYSB2YXJyZWR1cmEgYXhlLWNvcmU6CiAgLSBSZWdyYXMgcXVlIHBhc3NhcmFtIChwYXNzZXMpOiAxNAogIC0gVmlvbGHDp8O1ZXMgdG90YWlzOiAwCiAgICAgIGNyaXRpY2FsOiAwICDihpAgY3JpdMOpcmlvIGRlIGZhbGhhCiAgICAgIHNlcmlvdXM6ICAwICDihpAgY3JpdMOpcmlvIGRlIGZhbGhhCiAgICAgIG1vZGVyYXRlOiAwICAocmVnaXN0cmFkbywgTsODTyBmYWxoYSBvIHRlc3RlKQogICAgICBtaW5vcjogICAgMCAgKHJlZ2lzdHJhZG8sIE7Dg08gZmFsaGEgbyB0ZXN0ZSkKICAtIEluY29tcGxldGUgKHByZWNpc2EgcmV2aXPDo28gbWFudWFsKTogMAogIC0gSW5hcHBsaWNhYmxlIChuw6NvIHNlIGFwbGljYSDDoCBww6FnaW5hKTogNDYKClZpb2xhw6fDtWVzIGNyaXRpY2FsL3NlcmlvdXM6CiAgKG5lbmh1bWEg4oCUIGNyaXTDqXJpbyBkZSBmYWxoYSBhdGVuZGlkbykKClZpb2xhw6fDtWVzIGluZm9ybWF0aXZhcyAobW9kZXJhdGUvbWlub3IpIOKAlCBuw6NvIGZhbGhhbSBvIHRlc3RlOgogIChuZW5odW1hKQoKVmVyZWRpdG86IEFQUk9WQURPIOKAlCB6ZXJvIHZpb2xhw6fDtWVzIGNyaXRpY2FsL3NlcmlvdXMgbm8gZXNjb3BvIFdDQUcgMi4wIE7DrXZlbCBBIGUgQUEKUmVsYXTDs3JpbyBKU09OOiBDOlxQUk9KRVRPU1xEZXNhZmlvIFTDqWNuaWNvIE91dHNlcmFcRTJFXHBsYXl3cmlnaHQtZTJlXHJlcG9ydHNcYTExeVxDaGVja291dF9Db21wbGV0ZV8yMDI2LTA3LTMxVDAyLTUxLTU0LTA4M1ouanNvbgoKTm90YTogYXhlIGNvYnJlIGNoZWNhZ2VucyBhdXRvbWF0aXrDoXZlaXMgbm8gRE9NIChwYXJ0ZSBkYXMgcmVncmFzIFdDQUcpLgpOw6NvIHN1YnN0aXR1aSB0ZXN0ZSBkZSB0ZWNsYWRvIChUQUIpLCBsZWl0b3IgZGUgdGVsYSBuZW0gcmV2aXPDo28gZGUgY29udGXDumRvLg==",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "ewogICJwYWdpbmEiOiAiQ2hlY2tvdXQgQ29tcGxldGUiLAogICJ1cmwiOiAiaHR0cHM6Ly93d3cuc2F1Y2VkZW1vLmNvbS9jaGVja291dC1jb21wbGV0ZS5odG1sIiwKICAiZXNjb3BvIjogewogICAgInBhZHJhbyI6ICJXQ0FHIDIuMCIsCiAgICAibml2ZWlzIjogWwogICAgICAiQSIsCiAgICAgICJBQSIKICAgIF0sCiAgICAidGFnc0F4ZSI6IFsKICAgICAgIndjYWcyYSIsCiAgICAgICJ3Y2FnMmFhIgogICAgXSwKICAgICJwb2xpdGljYUZhbGhhIjogWwogICAgICAiY3JpdGljYWwiLAogICAgICAic2VyaW91cyIKICAgIF0KICB9LAogICJhcHJvdmFkbyI6IHRydWUsCiAgImNvbnRhZ2VucyI6IHsKICAgICJwYXNzZXMiOiAxNCwKICAgICJ2aW9sYXRpb25zIjogMCwKICAgICJpbmNvbXBsZXRlIjogMCwKICAgICJpbmFwcGxpY2FibGUiOiA0NiwKICAgICJwb3JJbXBhY3RvIjoge30sCiAgICAiY3JpdGljYWwiOiAwLAogICAgInNlcmlvdXMiOiAwLAogICAgIm1vZGVyYXRlIjogMCwKICAgICJtaW5vciI6IDAKICB9LAogICJyZWdyYXNEZXNhYmlsaXRhZGFzIjogW10sCiAgImNhbWluaG9SZWxhdG9yaW8iOiAiQzpcXFBST0pFVE9TXFxEZXNhZmlvIFTDqWNuaWNvIE91dHNlcmFcXEUyRVxccGxheXdyaWdodC1lMmVcXHJlcG9ydHNcXGExMXlcXENoZWNrb3V0X0NvbXBsZXRlXzIwMjYtMDctMzFUMDItNTEtNTQtMDgzWi5qc29uIiwKICAidmlvbGFjb2VzQ3JpdGljYWxTZXJpb3VzIjogW10sCiAgInZpb2xhY29lc0luZm9ybWF0aXZhcyI6IFtdCn0=",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 52,
+            "name": "a página deve estar livre de violações critical e serious segundo WCAG 2 nivel A e AA",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 371500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14906300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@axe",
+            "line": 44
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;login-—-campos-focáveis-na-ordem-correta-com-tab",
+        "keyword": "Cenário",
+        "line": 55,
+        "name": "Login — campos focáveis na ordem correta com TAB",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 162899900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 56,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 558121600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 57,
+            "name": "eu navego com TAB na ordem \"username, password, login-button\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88722499
+            },
+            "embeddings": [
+              {
+                "data": "PT09IFJvdGVpcm8gZGUgbmF2ZWdhw6fDo28gcG9yIFRBQjogTG9naW4gPT09CkNyaXTDqXJpbzogV0NBRyAyLjEuMSBLZXlib2FyZCAoTsOtdmVsIEEpCk9yZGVtIGVzcGVyYWRhOiB1c2VybmFtZSDihpIgcGFzc3dvcmQg4oaSIGxvZ2luLWJ1dHRvbgoKUGFzc29zOgogIDEuIFtPS10gZXNwZXJhZG89InVzZXJuYW1lIiB8IGZvY289InVzZXJuYW1lIgogIDIuIFtPS10gZXNwZXJhZG89InBhc3N3b3JkIiB8IGZvY289InBhc3N3b3JkIgogIDMuIFtPS10gZXNwZXJhZG89ImxvZ2luLWJ1dHRvbiIgfCBmb2NvPSJsb2dpbi1idXR0b24iCgpWZXJlZGl0bzogQVBST1ZBRE8g4oCUIG9yZGVtIGRlIFRBQiBjb25mb3JtZSBlc3BlcmFkbwoKTm90YTogZXN0ZSB0ZXN0ZSBwcm92YSBxdWUgb3MgY2FtcG9zIHByaW5jaXBhaXMgKGNvbSBkYXRhLXRlc3QpIHJlY2ViZW0gZm9jbyBuYSBvcmRlbSBlc3BlcmFkYS4KTsOjbyBjb2JyZSBTaGlmdCtUQUIsIGVsZW1lbnRvcyBzZW0gZGF0YS10ZXN0LCBsZWl0b3IgZGUgdGVsYSBuZW0gYXJtYWRpbGhhIGRlIGZvY28gZW0gbW9kYWlzLg==",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 58,
+            "name": "a navegação por TAB deve estar aprovada",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2649600
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJjcml0ZXJpbyI6ICJXQ0FHIDIuMS4xIEtleWJvYXJkIiwKICAiZm9ybXVsYXJpbyI6ICJMb2dpbiIsCiAgIm9yZGVtIjogWwogICAgInVzZXJuYW1lIiwKICAgICJwYXNzd29yZCIsCiAgICAibG9naW4tYnV0dG9uIgogIF0sCiAgInBhc3NvcyI6IFsKICAgIHsKICAgICAgImluZGljZSI6IDEsCiAgICAgICJkYXRhVGVzdEVzcGVyYWRvIjogInVzZXJuYW1lIiwKICAgICAgImRhdGFUZXN0QXR1YWwiOiAidXNlcm5hbWUiLAogICAgICAib2siOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaW5kaWNlIjogMiwKICAgICAgImRhdGFUZXN0RXNwZXJhZG8iOiAicGFzc3dvcmQiLAogICAgICAiZGF0YVRlc3RBdHVhbCI6ICJwYXNzd29yZCIsCiAgICAgICJvayI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJpbmRpY2UiOiAzLAogICAgICAiZGF0YVRlc3RFc3BlcmFkbyI6ICJsb2dpbi1idXR0b24iLAogICAgICAiZGF0YVRlc3RBdHVhbCI6ICJsb2dpbi1idXR0b24iLAogICAgICAib2siOiB0cnVlCiAgICB9CiAgXSwKICAiYXByb3ZhZG8iOiB0cnVlCn0=",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24443100
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@teclado",
+            "line": 54
+          },
+          {
+            "name": "@smoke",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "acessibilidade-wcag-no-saucedemo;checkout-—-campos-de-entrega-focáveis-na-ordem-correta-com-tab",
+        "keyword": "Cenário",
+        "line": 61,
+        "name": "Checkout — campos de entrega focáveis na ordem correta com TAB",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 143590799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 62,
+            "name": "que estou na etapa de informações do checkout com o produto \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1320879099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 63,
+            "name": "eu navego com TAB na ordem \"firstName, lastName, postalCode, cancel, continue\"",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90381000
+            },
+            "embeddings": [
+              {
+                "data": "PT09IFJvdGVpcm8gZGUgbmF2ZWdhw6fDo28gcG9yIFRBQjogQ2hlY2tvdXQgSW5mbyA9PT0KQ3JpdMOpcmlvOiBXQ0FHIDIuMS4xIEtleWJvYXJkIChOw612ZWwgQSkKT3JkZW0gZXNwZXJhZGE6IGZpcnN0TmFtZSDihpIgbGFzdE5hbWUg4oaSIHBvc3RhbENvZGUg4oaSIGNhbmNlbCDihpIgY29udGludWUKClBhc3NvczoKICAxLiBbT0tdIGVzcGVyYWRvPSJmaXJzdE5hbWUiIHwgZm9jbz0iZmlyc3ROYW1lIgogIDIuIFtPS10gZXNwZXJhZG89Imxhc3ROYW1lIiB8IGZvY289Imxhc3ROYW1lIgogIDMuIFtPS10gZXNwZXJhZG89InBvc3RhbENvZGUiIHwgZm9jbz0icG9zdGFsQ29kZSIKICA0LiBbT0tdIGVzcGVyYWRvPSJjYW5jZWwiIHwgZm9jbz0iY2FuY2VsIgogIDUuIFtPS10gZXNwZXJhZG89ImNvbnRpbnVlIiB8IGZvY289ImNvbnRpbnVlIgoKVmVyZWRpdG86IEFQUk9WQURPIOKAlCBvcmRlbSBkZSBUQUIgY29uZm9ybWUgZXNwZXJhZG8KCk5vdGE6IGVzdGUgdGVzdGUgcHJvdmEgcXVlIG9zIGNhbXBvcyBwcmluY2lwYWlzIChjb20gZGF0YS10ZXN0KSByZWNlYmVtIGZvY28gbmEgb3JkZW0gZXNwZXJhZGEuCk7Do28gY29icmUgU2hpZnQrVEFCLCBlbGVtZW50b3Mgc2VtIGRhdGEtdGVzdCwgbGVpdG9yIGRlIHRlbGEgbmVtIGFybWFkaWxoYSBkZSBmb2NvIGVtIG1vZGFpcy4=",
+                "mime_type": "text/plain"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 64,
+            "name": "a navegação por TAB deve estar aprovada",
+            "match": {
+              "location": "features\\steps\\acessibilidade.steps.ts:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 576799
+            },
+            "embeddings": [
+              {
+                "data": "ewogICJjcml0ZXJpbyI6ICJXQ0FHIDIuMS4xIEtleWJvYXJkIiwKICAiZm9ybXVsYXJpbyI6ICJDaGVja291dCBJbmZvIiwKICAib3JkZW0iOiBbCiAgICAiZmlyc3ROYW1lIiwKICAgICJsYXN0TmFtZSIsCiAgICAicG9zdGFsQ29kZSIsCiAgICAiY2FuY2VsIiwKICAgICJjb250aW51ZSIKICBdLAogICJwYXNzb3MiOiBbCiAgICB7CiAgICAgICJpbmRpY2UiOiAxLAogICAgICAiZGF0YVRlc3RFc3BlcmFkbyI6ICJmaXJzdE5hbWUiLAogICAgICAiZGF0YVRlc3RBdHVhbCI6ICJmaXJzdE5hbWUiLAogICAgICAib2siOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaW5kaWNlIjogMiwKICAgICAgImRhdGFUZXN0RXNwZXJhZG8iOiAibGFzdE5hbWUiLAogICAgICAiZGF0YVRlc3RBdHVhbCI6ICJsYXN0TmFtZSIsCiAgICAgICJvayI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJpbmRpY2UiOiAzLAogICAgICAiZGF0YVRlc3RFc3BlcmFkbyI6ICJwb3N0YWxDb2RlIiwKICAgICAgImRhdGFUZXN0QXR1YWwiOiAicG9zdGFsQ29kZSIsCiAgICAgICJvayI6IHRydWUKICAgIH0sCiAgICB7CiAgICAgICJpbmRpY2UiOiA0LAogICAgICAiZGF0YVRlc3RFc3BlcmFkbyI6ICJjYW5jZWwiLAogICAgICAiZGF0YVRlc3RBdHVhbCI6ICJjYW5jZWwiLAogICAgICAib2siOiB0cnVlCiAgICB9LAogICAgewogICAgICAiaW5kaWNlIjogNSwKICAgICAgImRhdGFUZXN0RXNwZXJhZG8iOiAiY29udGludWUiLAogICAgICAiZGF0YVRlc3RBdHVhbCI6ICJjb250aW51ZSIsCiAgICAgICJvayI6IHRydWUKICAgIH0KICBdLAogICJhcHJvdmFkbyI6IHRydWUKfQ==",
+                "mime_type": "application/json"
+              }
+            ]
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13105299
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@acessibilidade",
+            "line": 2
+          },
+          {
+            "name": "@teclado",
+            "line": 60
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "acessibilidade-wcag-no-saucedemo",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Acessibilidade WCAG no SauceDemo",
+    "tags": [
+      {
+        "name": "@acessibilidade",
+        "line": 2
+      }
+    ],
+    "uri": "features\\acessibilidade\\acessibilidade.feature"
+  },
+  {
+    "description": "  Como um cliente autenticado\n  Quero adicionar produtos ao carrinho e finalizar a compra\n  Para concluir o fluxo de checkout com sucesso",
+    "elements": [
+      {
+        "description": "",
+        "id": "checkout-no-e-commerce-saucedemo;compra-completa-com-dados-válidos",
+        "keyword": "Cenário",
+        "line": 17,
+        "name": "Compra completa com dados válidos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 193121699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1184799699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 18,
+            "name": "eu adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 243130799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 19,
+            "name": "eu abro o carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82227800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 20,
+            "name": "o produto \"Sauce Labs Backpack\" deve estar no carrinho",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17324700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 21,
+            "name": "eu inicio o checkout",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94159500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 22,
+            "name": "eu preencho os dados de entrega do cliente \"valido\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130551400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 23,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88463299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 24,
+            "name": "o resumo deve exibir o produto \"Sauce Labs Backpack\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34503500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 25,
+            "name": "eu finalizo a compra",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65009399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 26,
+            "name": "eu devo ver a confirmação da compra",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27985099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14560900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@positivo",
+            "line": 16
+          },
+          {
+            "name": "@smoke",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-no-e-commerce-saucedemo;adicionar-múltiplos-produtos-e-concluir-compra",
+        "keyword": "Cenário",
+        "line": 29,
+        "name": "Adicionar múltiplos produtos e concluir compra",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 186904099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1034065200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 30,
+            "name": "eu adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 92438300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 31,
+            "name": "eu adiciono o produto \"Sauce Labs Bike Light\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116036899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 32,
+            "name": "o badge do carrinho deve exibir \"2\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:118"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11942699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 33,
+            "name": "eu abro o carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64296399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 34,
+            "name": "o carrinho deve conter 2 itens",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11971299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 35,
+            "name": "eu inicio o checkout",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64199100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 36,
+            "name": "eu preencho os dados de entrega do cliente \"alternativo\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111365599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 37,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68414100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 38,
+            "name": "eu finalizo a compra",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 58017200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 39,
+            "name": "eu devo ver a confirmação da compra",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25086799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13168700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@positivo",
+            "line": 28
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-no-e-commerce-saucedemo;checkout-com-endereço-de-entrega-incompleto---nome-em-branco",
+        "keyword": "Cenário",
+        "line": 42,
+        "name": "Checkout com endereço de entrega incompleto - nome em branco",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144742800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 944342199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 43,
+            "name": "eu adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 57710500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 44,
+            "name": "eu abro o carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181085499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 45,
+            "name": "eu inicio o checkout",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66699200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 46,
+            "name": "eu preencho os dados de entrega do cliente \"semNome\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112915300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 47,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 83317499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 48,
+            "name": "eu devo permanecer na etapa de informações do checkout",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18042499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 49,
+            "name": "deve ser exibida a mensagem de erro do checkout \"firstNameObrigatorio\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18145400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18113199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-no-e-commerce-saucedemo;checkout-com-endereço-de-entrega-incompleto---sobrenome-em-branco",
+        "keyword": "Cenário",
+        "line": 52,
+        "name": "Checkout com endereço de entrega incompleto - sobrenome em branco",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 140012799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1104878700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 53,
+            "name": "eu adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 213948700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 54,
+            "name": "eu abro o carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112353499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 55,
+            "name": "eu inicio o checkout",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 112242599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 56,
+            "name": "eu preencho os dados de entrega do cliente \"semSobrenome\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 155896800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 57,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 644874799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 58,
+            "name": "eu devo permanecer na etapa de informações do checkout",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25332599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 59,
+            "name": "deve ser exibida a mensagem de erro do checkout \"lastNameObrigatorio\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32865800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 52182700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 51
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-no-e-commerce-saucedemo;checkout-com-endereço-de-entrega-incompleto---cep-em-branco",
+        "keyword": "Cenário",
+        "line": 62,
+        "name": "Checkout com endereço de entrega incompleto - CEP em branco",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 256596700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1074668299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 63,
+            "name": "eu adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 125548199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 64,
+            "name": "eu abro o carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148274799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 65,
+            "name": "eu inicio o checkout",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 73687799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 66,
+            "name": "eu preencho os dados de entrega do cliente \"semCep\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 170001199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 67,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81791599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 68,
+            "name": "eu devo permanecer na etapa de informações do checkout",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20563299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 69,
+            "name": "deve ser exibida a mensagem de erro do checkout \"postalCodeObrigatorio\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18823300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16920300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 61
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "checkout-no-e-commerce-saucedemo;checkout-com-dados-de-pagamento/entrega-inválidos---formulário-vazio",
+        "keyword": "Cenário",
+        "line": 74,
+        "name": "Checkout com dados de pagamento/entrega inválidos - formulário vazio",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 156786399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 14,
+            "name": "que estou autenticado como \"standard_user\"",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1347757999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 75,
+            "name": "eu adiciono o produto \"Sauce Labs Backpack\" ao carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:43"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 121923599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 76,
+            "name": "eu abro o carrinho",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152229999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 77,
+            "name": "eu inicio o checkout",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84560299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 78,
+            "name": "eu continuo para o resumo do pedido",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61428899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 79,
+            "name": "eu devo permanecer na etapa de informações do checkout",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13247100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 80,
+            "name": "deve ser exibida a mensagem de erro do checkout \"firstNameObrigatorio\"",
+            "match": {
+              "location": "features\\steps\\checkout.steps.ts:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15515800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16201500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 71
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "checkout-no-e-commerce-saucedemo",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Checkout no e-commerce SauceDemo",
+    "tags": [
+      {
+        "name": "@checkout",
+        "line": 2
+      }
+    ],
+    "uri": "features\\checkout\\checkout.feature"
+  },
+  {
+    "description": "  Como um usuário da loja SauceDemo\n  Quero autenticar e acessar a página de produtos\n  Para que eu possa navegar e realizar compras",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-e-navegação-no-saucedemo;login-válido-e-navegação-para-a-página-de-produtos",
+        "keyword": "Cenário",
+        "line": 15,
+        "name": "Login válido e navegação para a página de produtos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 144587499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493650500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 16,
+            "name": "eu faço login com o perfil \"valido\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 349025099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 17,
+            "name": "eu devo ser redirecionado para a página de produtos",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21026899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 18,
+            "name": "o título \"Products\" deve estar visível",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6774799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11060900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@positivo",
+            "line": 14
+          },
+          {
+            "name": "@smoke",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-e-navegação-no-saucedemo;login-com-senha-incorreta",
+        "keyword": "Cenário",
+        "line": 21,
+        "name": "Login com senha incorreta",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 152061200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491445499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 22,
+            "name": "eu faço login com o perfil \"senhaIncorreta\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218412700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 23,
+            "name": "eu devo permanecer na página de login",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17428200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 24,
+            "name": "deve ser exibida a mensagem de erro de login \"credenciaisInvalidas\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15064800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12885999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-e-navegação-no-saucedemo;login-com-usuário-inexistente",
+        "keyword": "Cenário",
+        "line": 27,
+        "name": "Login com usuário inexistente",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 136203099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 493972000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 28,
+            "name": "eu faço login com o perfil \"inexistente\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212827899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 29,
+            "name": "eu devo permanecer na página de login",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19540199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 30,
+            "name": "deve ser exibida a mensagem de erro de login \"credenciaisInvalidas\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15124499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12167399
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-e-navegação-no-saucedemo;login-com-campos-obrigatórios-em-branco",
+        "keyword": "Cenário",
+        "line": 33,
+        "name": "Login com campos obrigatórios em branco",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 171218699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 485333199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 34,
+            "name": "eu tento fazer login sem preencher usuário e senha",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 100525600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 35,
+            "name": "eu devo permanecer na página de login",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48603000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 36,
+            "name": "deve ser exibida a mensagem de erro de login \"usuarioObrigatorio\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31750400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14160499
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-e-navegação-no-saucedemo;login-com-usuário-bloqueado",
+        "keyword": "Cenário",
+        "line": 39,
+        "name": "Login com usuário bloqueado",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 141510900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 491245300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 40,
+            "name": "eu faço login com o perfil \"bloqueado\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 263970200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 41,
+            "name": "eu devo permanecer na página de login",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14279900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 42,
+            "name": "deve ser exibida a mensagem de erro de login \"usuarioBloqueado\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9705900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14046099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 38
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-e-navegação-no-saucedemo;login-apenas-com-usuário-preenchido-(senha-em-branco)",
+        "keyword": "Cenário",
+        "line": 45,
+        "name": "Login apenas com usuário preenchido (senha em branco)",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 158173600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 12,
+            "name": "que estou na página de login do SauceDemo",
+            "match": {
+              "location": "features\\steps\\common.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 470158900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 46,
+            "name": "eu preencho apenas o usuário do perfil \"valido\" e deixo a senha em branco",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51429799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 47,
+            "name": "eu clico no botão de login",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96397099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 48,
+            "name": "eu devo permanecer na página de login",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:40"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33398700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 49,
+            "name": "deve ser exibida a mensagem de erro de login \"senhaObrigatoria\"",
+            "match": {
+              "location": "features\\steps\\login.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17822800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 16608500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 2
+          },
+          {
+            "name": "@negativo",
+            "line": 44
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-e-navegação-no-saucedemo",
+    "line": 3,
+    "keyword": "Funcionalidade",
+    "name": "Login e navegação no SauceDemo",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 2
+      }
+    ],
+    "uri": "features\\login\\login.feature"
+  }
+]

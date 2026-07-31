@@ -1,9 +1,5 @@
 node_modules/
 dist/
-reports/**
-!reports/.gitkeep
-!reports/a11y/
-!reports/a11y/.gitkeep
 test-results/
 playwright-report/
 .env
